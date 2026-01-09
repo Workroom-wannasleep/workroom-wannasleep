@@ -1,0 +1,83 @@
+{
+  "nav": {
+    "home": "首页",
+    "studio": "工作室",
+    "works": "作品",
+    "contact": "联系"
+  },
+  "home": {
+    "headline": "在宁静的夜晚时光中\n诞生的软件。",
+    "description": "我们用心、意图和想象力构建网络和移动应用程序。"
+  },
+  "studio": {
+    "title": "工作室",
+    "headline": "在宁静时刻诞生的数字工坊。",
+    "description": "一个用心打造软件的工作室。",
+    "sections": {
+      "imagination": {
+        "title": "源于想象力",
+        "content1": "最好的想法总是在入睡前的宁静时刻到来。当一天慢下来,思绪在可能性的浩瀚宇宙中自由徜徉。",
+        "content2": "我们以同样的方式构建软件。缓慢地。深思熟虑地。带着意图。"
+      },
+      "philosophy": {
+        "title": "哲学重于速度",
+        "content1": "我们对快速行动和破坏事物不感兴趣。我们谨慎行事,构建经久耐用的东西。",
+        "content2": "每一行代码都是一个选择。每个界面都是一次对话。每个产品都是具象化的哲学。"
+      },
+      "craft": {
+        "title": "工艺而非商品",
+        "content1": "这是一个数字工坊,而不是工厂。我们是工匠,而不是供应商。",
+        "content2": "我们为重视质量、意图和技术中人性化触感的客户构建网络和移动应用程序。"
+      },
+      "who": {
+        "title": "我们是谁",
+        "content1": "来自正规大学的年轻计算机科学毕业生。接受过理论和实践教育。在算法、架构和计算哲学方面受过培训。",
+        "content2": "我们为每个项目带来结构、严谨和创造力。我们深切关注事物的制作方式。"
+      }
+    }
+  },
+  "works": {
+    "title": "作品",
+    "headline": "用心打造的精选项目。",
+    "description": "每件作品都经过精心制作和技术卓越。从想法到实现的旅程。",
+    "comingSoon": "即将推出",
+    "hint": "我们正在准备一些特别的东西。敬请期待。",
+    "projects": [
+      {
+        "title": "Constellation",
+        "category": "网络应用",
+        "description": "为分布式团队打造的协作工作空间。在数字时代保持人性化。",
+        "year": "2024"
+      },
+      {
+        "title": "Nocturne",
+        "category": "移动应用",
+        "description": "冥想和反思伴侣。为宁静时刻而设计。",
+        "year": "2024"
+      },
+      {
+        "title": "Atelier",
+        "category": "电子商务平台",
+        "description": "为独立创作者打造的用心市场。用心经营的商业。",
+        "year": "2023"
+      },
+      {
+        "title": "Continuum",
+        "category": "网络应用",
+        "description": "重新构想的项目管理。灵活而不失结构。",
+        "year": "2023"
+      }
+    ]
+  },
+  "contact": {
+    "title": "联系",
+    "headline": "让我们开始对话",
+    "description": "有项目想法？想要合作？请联系我们。",
+    "email": "邮箱",
+    "github": "GitHub"
+  },
+  "metadata": {
+    "title": "Workroom wannasleep — 来自宁静时刻的软件",
+    "description": "一个制作周到软件的数字工坊。用心、意图和想象力构建网络和移动应用程序。"
+  }
+}

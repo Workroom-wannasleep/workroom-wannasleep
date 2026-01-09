@@ -28,8 +28,8 @@
   --color-accent-warm: var(--accent-warm);
   --color-border: var(--border);
 
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+  --font-sans: var(--font-fira-code);
+  --font-mono: var(--font-fira-code);
 
   --spacing-section: 8rem;
   --spacing-section-mobile: 4rem;

@@ -1,35 +1,18 @@
 'use client';
 
 import { motion } from 'framer-motion';
-
-const projects = [
-  {
-    title: 'Constellation',
-    category: 'Web Application',
-    description: 'A collaborative workspace for distributed teams. Built to feel human in a digital age.',
-    year: '2024',
-  },
-  {
-    title: 'Nocturne',
-    category: 'Mobile App',
-    description: 'Meditation and reflection companion. Designed for the quiet hours.',
-    year: '2024',
-  },
-  {
-    title: 'Atelier',
-    category: 'E-commerce Platform',
-    description: 'A thoughtful marketplace for independent makers. Commerce with care.',
-    year: '2023',
-  },
-  {
-    title: 'Continuum',
-    category: 'Web Application',
-    description: 'Project management reimagined. Structure without rigidity.',
-    year: '2023',
-  },
-];
+import { useTranslations } from 'next-intl';
 
 export default function Works() {
+  const t = useTranslations('works');
+
+  const projects = t.raw('projects') as Array<{
+    title: string;
+    category: string;
+    description: string;
+    year: string;
+  }>;
+
   return (
     <main className="min-h-screen pt-32 pb-24 px-6 md:px-12">
       <div className="max-w-6xl mx-auto space-y-16">
@@ -41,10 +24,10 @@ export default function Works() {
           className="space-y-6"
         >
           <h1 className="text-5xl md:text-6xl font-medium tracking-tight text-foreground">
-            Works
+            {t('title')}
           </h1>
           <p className="text-2xl text-foreground-muted max-w-2xl leading-relaxed">
-            Selected projects crafted with intention.
+            {t('headline')}
           </p>
         </motion.div>
 

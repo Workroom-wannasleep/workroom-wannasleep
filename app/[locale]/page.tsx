@@ -1,8 +1,11 @@
 'use client';
 
 import { motion } from 'framer-motion';
+import { useTranslations } from 'next-intl';
 
 export default function Home() {
+  const t = useTranslations('home');
+
   return (
     <main className="min-h-screen flex items-center justify-center px-6 md:px-12">
       <div className="max-w-4xl w-full">
@@ -13,8 +16,8 @@ export default function Home() {
           className="space-y-8"
         >
           {/* Main Headline */}
-          <h1 className="text-5xl md:text-7xl lg:text-8xl font-medium tracking-tight leading-[1.1] text-foreground">
-            Software born in the quiet hours before sleep.
+          <h1 className="text-5xl md:text-7xl lg:text-8xl font-medium tracking-tight leading-[1.1] text-foreground whitespace-pre-line">
+            {t('headline')}
           </h1>
 
           {/* Supporting Text */}
@@ -24,7 +27,7 @@ export default function Home() {
             transition={{ duration: 0.8, delay: 0.3 }}
             className="text-xl md:text-2xl text-foreground-muted max-w-2xl leading-relaxed"
           >
-            We build web and mobile applications with care, intention, and imagination.
+            {t('description')}
           </motion.p>
         </motion.div>
       </div>

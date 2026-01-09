@@ -1,0 +1,83 @@
+{
+  "nav": {
+    "home": "Home",
+    "studio": "Studio",
+    "works": "Works",
+    "contact": "Contact"
+  },
+  "home": {
+    "headline": "Software born in the quiet hours\nbefore sleep.",
+    "description": "We build web and mobile applications with care, intention, and imagination."
+  },
+  "studio": {
+    "title": "Studio",
+    "headline": "A digital workshop born in the quiet hours.",
+    "description": "A workshop for thoughtful software.",
+    "sections": {
+      "imagination": {
+        "title": "Built from imagination",
+        "content1": "The best ideas arrive in the quiet moments before sleep. When the day slows down and the mind wanders freely across the vast universe of possibility.",
+        "content2": "We build software the same way. Slowly. Thoughtfully. With intention."
+      },
+      "philosophy": {
+        "title": "Philosophy over speed",
+        "content1": "We are not interested in moving fast and breaking things. We move deliberately and build things that last.",
+        "content2": "Every line of code is a choice. Every interface is a conversation. Every product is a philosophy made tangible."
+      },
+      "craft": {
+        "title": "Craft, not commodity",
+        "content1": "This is a digital workshop, not a factory. We are craftspeople, not vendors.",
+        "content2": "We build web and mobile applications for clients who value quality, intention, and the human touch in technology."
+      },
+      "who": {
+        "title": "Who we are",
+        "content1": "Young computer science graduates from formal universities. Educated in theory and practice. Trained in algorithms, architecture, and the philosophy of computation.",
+        "content2": "We bring structure, rigor, and creativity to every project. We care deeply about how things are made."
+      }
+    }
+  },
+  "works": {
+    "title": "Works",
+    "headline": "Selected projects crafted with intention.",
+    "description": "Each piece crafted with care and technical excellence. The journey from idea to execution.",
+    "comingSoon": "Coming Soon",
+    "hint": "We're preparing something special. Stay tuned.",
+    "projects": [
+      {
+        "title": "Constellation",
+        "category": "Web Application",
+        "description": "A collaborative workspace for distributed teams. Built to feel human in a digital age.",
+        "year": "2024"
+      },
+      {
+        "title": "Nocturne",
+        "category": "Mobile App",
+        "description": "Meditation and reflection companion. Designed for the quiet hours.",
+        "year": "2024"
+      },
+      {
+        "title": "Atelier",
+        "category": "E-commerce Platform",
+        "description": "A thoughtful marketplace for independent makers. Commerce with care.",
+        "year": "2023"
+      },
+      {
+        "title": "Continuum",
+        "category": "Web Application",
+        "description": "Project management reimagined. Structure without rigidity.",
+        "year": "2023"
+      }
+    ]
+  },
+  "contact": {
+    "title": "Contact",
+    "headline": "Let's start a conversation",
+    "description": "Have an idea for a project? Want to work together? Get in touch.",
+    "email": "Email",
+    "github": "GitHub"
+  },
+  "metadata": {
+    "title": "Workroom wannasleep — Software from the quiet hours",
+    "description": "A digital workshop crafting thoughtful software. Building web and mobile applications with care, intention, and imagination."
+  }
+}

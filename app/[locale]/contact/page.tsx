@@ -1,8 +1,11 @@
-'use client';
+"use client";
 
-import { motion } from 'framer-motion';
+import { motion } from "framer-motion";
+import { useTranslations } from "next-intl";
 
 export default function Contact() {
+  const t = useTranslations("contact");
+
   return (
     <main className="min-h-screen flex items-center justify-center px-6 md:px-12">
       <div className="max-w-3xl w-full">
@@ -15,23 +18,23 @@ export default function Contact() {
           {/* Header */}
           <div className="space-y-6">
             <h1 className="text-5xl md:text-6xl font-medium tracking-tight text-foreground">
-              Contact
+              {t("title")}
             </h1>
             <p className="text-xl md:text-2xl text-foreground-muted leading-relaxed">
-              Let's build something thoughtful together.
+              {t("description")}
             </p>
           </div>
 
           {/* Email */}
           <div className="space-y-4 pt-8">
             <p className="text-sm uppercase tracking-wider text-foreground-muted">
-              Email
+              {t("email")}
             </p>
             <a
-              href="mailto:hello@workroom-wannasleep.com"
+              href="mailto:ceo@wannasleep.biz"
               className="text-3xl md:text-4xl font-medium text-foreground hover:text-accent-indigo transition-colors duration-300 inline-block"
             >
-              hello@workroom-wannasleep.com
+              ceo@wannasleep.biz
             </a>
           </div>
         </motion.div>
