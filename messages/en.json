@@ -6,32 +6,32 @@
     "contact": "Contact"
   },
   "home": {
-    "headline": "Software born in the quiet hours\nbefore sleep.",
-    "description": "We build web and mobile applications with care, intention, and imagination."
+    "headline": "In the tranquil night\nSoftware crafted by elegant fingertips.",
+    "description": "A workshop where we create web and mobile applications by adding meticulousness and elegance to imagination born in the dozy hours."
   },
   "studio": {
     "title": "Studio",
-    "headline": "A digital workshop born in the quiet hours.",
-    "description": "A workshop for thoughtful software.",
+    "headline": "A digital workshop born in the quiet night hours.",
+    "description": "A digital workshop crafted amidst gentle keyboard sounds and soft screen light.",
     "sections": {
       "imagination": {
-        "title": "Built from imagination",
-        "content1": "The best ideas arrive in the quiet moments before sleep. When the day slows down and the mind wanders freely across the vast universe of possibility.",
-        "content2": "We build software the same way. Slowly. Thoughtfully. With intention."
+        "title": "Born from imagination",
+        "content1": "The best ideas arrive in the quiet moments before sleep.",
+        "content2": "The only slowed-down time in a day, exploring freely through the vast universe of possibilities to find your destination."
       },
       "philosophy": {
         "title": "Philosophy over speed",
-        "content1": "We are not interested in moving fast and breaking things. We move deliberately and build things that last.",
-        "content2": "Every line of code is a choice. Every interface is a conversation. Every product is a philosophy made tangible."
+        "content1": "We are not interested in moving fast and making trash. We build the future deliberately.",
+        "content2": "Every line of code is a choice. Every interface is a conversation. Every product is an embodied philosophy."
       },
       "craft": {
-        "title": "Craft, not commodity",
-        "content1": "This is a digital workshop, not a factory. We are craftspeople, not vendors.",
-        "content2": "We build web and mobile applications for clients who value quality, intention, and the human touch in technology."
+        "title": "Craftsmanship, not commodity",
+        "content1": "This is a digital workshop, not a factory. We are artisans, not sellers.",
+        "content2": "We create web and mobile applications for clients who value quality, intention, and human sensitivity in technology."
       },
       "who": {
         "title": "Who we are",
-        "content1": "Young computer science graduates from formal universities. Educated in theory and practice. Trained in algorithms, architecture, and the philosophy of computation.",
+        "content1": "Young graduates who majored in computer science at prestigious domestic universities. Educated in theory and practice. Learned algorithms, architecture, and the philosophy of computation.",
         "content2": "We bring structure, rigor, and creativity to every project. We care deeply about how things are made."
       }
     }
@@ -39,45 +39,27 @@
   "works": {
     "title": "Works",
     "headline": "Selected projects crafted with intention.",
-    "description": "Each piece crafted with care and technical excellence. The journey from idea to execution.",
+    "description": "Each work crafted with meticulous care and technical excellence. The journey from idea to execution.",
     "comingSoon": "Coming Soon",
-    "hint": "We're preparing something special. Stay tuned.",
+    "hint": "We are preparing something special. Please wait a moment.",
     "projects": [
       {
-        "title": "Constellation",
-        "category": "Web Application",
-        "description": "A collaborative workspace for distributed teams. Built to feel human in a digital age.",
-        "year": "2024"
-      },
-      {
-        "title": "Nocturne",
-        "category": "Mobile App",
-        "description": "Meditation and reflection companion. Designed for the quiet hours.",
-        "year": "2024"
-      },
-      {
-        "title": "Atelier",
-        "category": "E-commerce Platform",
-        "description": "A thoughtful marketplace for independent makers. Commerce with care.",
-        "year": "2023"
-      },
-      {
-        "title": "Continuum",
-        "category": "Web Application",
-        "description": "Project management reimagined. Structure without rigidity.",
-        "year": "2023"
+        "title": "Space ONEZ",
+        "category": "Brand Introduction Website",
+        "description": "A sensory space in Yeongdo-gu, Busan.",
+        "year": "2025"
       }
     ]
   },
   "contact": {
     "title": "Contact",
     "headline": "Let's start a conversation",
-    "description": "Have an idea for a project? Want to work together? Get in touch.",
+    "description": "We'll craft your dream.",
     "email": "Email",
     "github": "GitHub"
   },
   "metadata": {
-    "title": "Workroom wannasleep — Software from the quiet hours",
-    "description": "A digital workshop crafting thoughtful software. Building web and mobile applications with care, intention, and imagination."
+    "title": "Workroom wannasleep — Software born in the tranquil hours",
+    "description": "A digital workshop crafting thoughtful software. Creating web and mobile applications with meticulousness, intention, and imagination."
   }
 }
