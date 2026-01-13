@@ -47,7 +47,17 @@
         "title": "Space ONEZ",
         "category": "Brand Introduction Website",
         "description": "A sensory space in Yeongdo-gu, Busan.",
-        "year": "2025"
+        "year": "2025",
+        "month": "11",
+        "link": ""
+      },
+      {
+        "title": "QFF SKKU",
+        "category": "Event Promotion Website",
+        "description": "Official website for Sungkyunkwan University Quantum Computing Festival.",
+        "year": "2025",
+        "month": "09",
+        "link": "https://qff-skku.com"
       }
     ]
   },

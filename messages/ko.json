@@ -47,7 +47,17 @@
         "title": "Space ONEZ",
         "category": "브랜드 소개 웹사이트",
         "description": "부산시 영도구의 감각적인 공간.",
-        "year": "2025"
+        "year": "2025",
+        "month": "11",
+        "link": ""
+      },
+      {
+        "title": "QFF SKKU",
+        "category": "행사 홍보 웹사이트",
+        "description": "성균관대학교 퀀텀 컴퓨팅 페스티벌 공식 웹사이트.",
+        "year": "2025",
+        "month": "09",
+        "link": "https://qff-skku.com"
       }
     ]
   },

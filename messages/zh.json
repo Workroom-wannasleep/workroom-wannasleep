@@ -47,7 +47,17 @@
         "title": "Space ONEZ",
         "category": "品牌介绍网站",
         "description": "釜山市影岛区的感性空间。",
-        "year": "2025"
+        "year": "2025",
+        "month": "11",
+        "link": ""
+      },
+      {
+        "title": "QFF SKKU",
+        "category": "活动推广网站",
+        "description": "成均馆大学量子计算节官方网站。",
+        "year": "2025",
+        "month": "09",
+        "link": "https://qff-skku.com"
       }
     ]
   },
