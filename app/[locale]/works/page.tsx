@@ -28,12 +28,12 @@ function TimelineItem({ project, index }: { project: Project; index: number }) {
       className="relative grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-12 items-center"
     >
       {/* Year Label - Left side on desktop */}
-      <div className={`${isEven ? 'md:order-1' : 'md:order-2'} flex justify-center md:justify-end`}>
+      <div className={`${isEven ? 'md:order-1' : 'md:order-2'} flex ${isEven ? 'justify-center md:justify-end' : 'justify-center md:justify-start'}`}>
         <motion.div
           initial={{ opacity: 0, x: isEven ? -30 : 30 }}
           animate={isInView ? { opacity: 1, x: 0 } : { opacity: 0, x: isEven ? -30 : 30 }}
           transition={{ duration: 0.6, delay: 0.2 }}
-          className="text-center md:text-right"
+          className={`${isEven ? 'text-right' : 'text-left'} md:${isEven ? 'text-right' : 'text-left'}`}
         >
           <div className="text-5xl md:text-6xl font-medium text-accent-indigo tracking-tight">
             {project.year}
@@ -140,7 +140,7 @@ export default function Works() {
         {/* Timeline */}
         <div ref={timelineRef} className="relative space-y-24 md:space-y-32">
           {/* Vertical Line - Desktop only */}
-          <div className="absolute left-1/2 top-0 bottom-0 w-px bg-gradient-to-b from-transparent via-border to-transparent hidden md:block" />
+          <div className="absolute left-1/2 top-0 bottom-0 w-px bg-gradient-to-b from-transparent via-foreground-muted to-transparent hidden md:block" />
 
           {projects.map((project, index) => (
             <TimelineItem key={index} project={project} index={index} />
