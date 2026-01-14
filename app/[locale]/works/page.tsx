@@ -35,7 +35,7 @@ function TimelineItem({ project, index }: { project: Project; index: number }) {
           transition={{ duration: 0.6, delay: 0.2 }}
           className={`${isEven ? 'text-right' : 'text-left'} md:${isEven ? 'text-right' : 'text-left'}`}
         >
-          <div className="text-5xl md:text-6xl font-medium text-accent-indigo tracking-tight">
+          <div className="text-5xl md:text-6xl font-medium text-accent-green tracking-tight">
             {project.year}
           </div>
           <div className="text-xl text-foreground-muted mt-2">
@@ -50,7 +50,7 @@ function TimelineItem({ project, index }: { project: Project; index: number }) {
           initial={{ scale: 0 }}
           animate={isInView ? { scale: 1 } : { scale: 0 }}
           transition={{ duration: 0.4, delay: 0.3 }}
-          className="w-6 h-6 rounded-full bg-accent-indigo border-4 border-background shadow-lg"
+          className="w-6 h-6 rounded-full bg-accent-green border-4 border-background shadow-lg"
         />
       </div>
 
@@ -66,7 +66,7 @@ function TimelineItem({ project, index }: { project: Project; index: number }) {
             href={project.link || undefined}
             target={project.link ? '_blank' : undefined}
             rel={project.link ? 'noopener noreferrer' : undefined}
-            className={`block space-y-6 p-8 rounded-lg border border-border bg-background-elevated transition-all duration-300 hover:border-accent-indigo hover:bg-background hover:shadow-xl hover:shadow-accent-indigo/10 ${
+            className={`block space-y-6 p-8 rounded-lg border border-border bg-background-elevated transition-all duration-300 hover:border-accent-green hover:bg-background hover:shadow-xl hover:shadow-accent-green/10 ${
               project.link ? 'cursor-pointer' : 'cursor-default'
             }`}
           >
@@ -77,7 +77,7 @@ function TimelineItem({ project, index }: { project: Project; index: number }) {
               </span>
               {project.link && (
                 <svg
-                  className="w-5 h-5 text-foreground-muted group-hover:text-accent-indigo transition-colors"
+                  className="w-5 h-5 text-foreground-muted group-hover:text-accent-green transition-colors"
                   fill="none"
                   stroke="currentColor"
                   viewBox="0 0 24 24"
@@ -93,7 +93,7 @@ function TimelineItem({ project, index }: { project: Project; index: number }) {
             </div>
 
             {/* Title */}
-            <h2 className="text-3xl md:text-4xl font-medium text-foreground group-hover:text-accent-indigo transition-colors duration-300">
+            <h2 className="text-3xl md:text-4xl font-medium text-foreground group-hover:text-accent-green transition-colors duration-300">
               {project.title}
             </h2>
 

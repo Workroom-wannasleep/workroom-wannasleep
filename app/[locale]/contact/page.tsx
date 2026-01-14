@@ -32,7 +32,7 @@ export default function Contact() {
             </p>
             <a
               href="mailto:ceo@wannasleep.biz"
-              className="text-3xl md:text-4xl font-medium text-foreground hover:text-accent-indigo transition-colors duration-300 inline-block"
+              className="text-3xl md:text-4xl font-medium text-foreground hover:text-accent-green transition-colors duration-300 inline-block"
             >
               ceo@wannasleep.biz
             </a>

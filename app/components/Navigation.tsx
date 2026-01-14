@@ -89,7 +89,7 @@ export default function Navigation() {
                     onClick={() => handleLanguageChange(lang.code)}
                     className={`text-xs font-medium tracking-wider transition-colors duration-300 ${
                       currentLocale === lang.code
-                        ? "text-accent-indigo"
+                        ? "text-accent-green"
                         : "text-foreground-muted hover:text-foreground"
                     }`}
                     aria-label={`Switch to ${lang.label}`}
@@ -219,7 +219,7 @@ export default function Navigation() {
                           onClick={() => handleLanguageChange(lang.code)}
                           className={`text-sm font-medium tracking-wider transition-colors duration-300 ${
                             currentLocale === lang.code
-                              ? "text-accent-indigo"
+                              ? "text-accent-green"
                               : "text-foreground-muted hover:text-foreground"
                           }`}
                           aria-label={`Switch to ${lang.label}`}

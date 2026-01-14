@@ -38,7 +38,7 @@ export default function Studio() {
           className="space-y-16"
         >
           {/* Section 1 */}
-          <section className="space-y-4 border-l-2 border-accent-indigo pl-8">
+          <section className="space-y-4 border-l-2 border-accent-green pl-8">
             <h2 className="text-2xl font-medium text-foreground">
               {t("sections.imagination.title")}
             </h2>

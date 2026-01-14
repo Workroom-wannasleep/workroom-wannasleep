@@ -65,7 +65,7 @@ Edit `app/globals.css` to customize the color palette:
 ```css
 :root {
   --background: #1a1814;           /* Warm dark background */
-  --accent-indigo: #6366a3;        /* Cosmic accent */
+  --accent-green: #6b9f7e;         /* Sage green accent */
   --accent-blue: #4a5f7f;          /* Thoughtful blue */
   --accent-warm: #8b7f6f;          /* Warm neutral */
 }
